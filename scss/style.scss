@@ -60,14 +60,13 @@ header {
       justify-content: space-between;
       ul {
         display: flex;
-        align-items: center;
         gap: 77px;
         li {
           position: relative;
           transition: all 3.5s;
-
           a {
             display: inline-block;
+            padding: 56px 0 34px;
             font-size: 18px;
             font-family: 'Lato', sans-serif;
           }
@@ -80,7 +79,7 @@ header {
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            bottom: -52px;
+            bottom: -7;
             content: '';
             width: calc(100% + 35px); height: 10px;
             background: #000;
